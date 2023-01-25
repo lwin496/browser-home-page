@@ -13,7 +13,7 @@ const Clock = () => {
             }
       },[])
   return (
-      <span className='SmallFont text-white text-4xl'> 
+      <span className='BigFont text-white text-[6rem] '> 
            {date.toLocaleTimeString()}
       </span>
   )
