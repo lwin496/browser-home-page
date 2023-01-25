@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "BigFont";
+  src: url("./Fonts/04B_30__.TTF");
+}
+@font-face {
+  font-family: "SmallFont";
+  src: url("./Fonts/rainyhearts.ttf");
+}
+
+.BigFont { 
+  font-family: BigFont
+}
+
+.SmallFont { 
+  font-family: SmallFont
+}
+
+
+
+.floating { 
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+@keyframes floating {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 15px); }
+  100%   { transform: translate(0, -0px); }   
+}
