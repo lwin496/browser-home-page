@@ -3,7 +3,7 @@ import Clock from './Components/Clock';
 import './App.css';
 import IconBox from './Components/IconBox';
 import Spotify from 'react-spotify-embed'
-import {motion} from 'framer-motion'
+// import {motion} from 'framer-motion'
 
 
 function App() {

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ade6adab.css",
+    "main.js": "/static/js/main.52fb7c2b.js",
+    "static/media/Background.gif": "/static/media/Background.72c2fbf0181e65f82dba.gif",
+    "static/media/rainyhearts.ttf": "/static/media/rainyhearts.2f088ce263e644a4a5a6.ttf",
+    "static/media/04B_30__.TTF": "/static/media/04B_30__.cb829af0ad882093769c.TTF",
+    "index.html": "/index.html",
+    "main.ade6adab.css.map": "/static/css/main.ade6adab.css.map",
+    "main.52fb7c2b.js.map": "/static/js/main.52fb7c2b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ade6adab.css",
+    "static/js/main.52fb7c2b.js"
+  ]
+}
