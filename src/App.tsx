@@ -10,24 +10,27 @@ function App() {
   return (
     <div className="bg-purple-800 h-screen bg-[url('Imgs/Background.gif')] bg-no-repeat bg-cover backdrop-opacity-100 overflow-y-hidden overflow-x-hidden">
     
-      <h1 className='BigFont text-white text-5xl text-center pt-24 floating pb-3'>Welcome Louis</h1>
+      <h1 className='BigFont text-white text-5xl text-center pt-[5vh] floating pb-3'>Welcome Louis</h1>
         <Searchbar />
       <div className='w-[50vw] flex m-auto justify-center'>
         <Clock />
       </div>
-      <div className='w-[80vw] m-auto'>
+      <div className='w-[100vw]'>
         <IconBox />
       </div>
-      <div className='sticky top-[100vh]'> 
-        <Spotify link='https://open.spotify.com/playlist/37i9dQZF1F0sijgNaJdgit?si=c8532c1530c64ba0' />
+      <div className='absolute top-1'> 
+        <motion.div 
+          animate={{
+            y: 100,
+          }}
+          transition = {{ease: "", duration: 3, repeat: Infinity}}
+        >
+        <Spotify link='https://open.spotify.com/album/3kBwbHeZRaGymxZmbG8zMQ?si=aEvegGLAQJCwpOWk8-0p5A' />
+        </motion.div>
       </div>
 
         <div className='text-white'>
-         
-          <motion.div
-            animate={{x : 1750}}
-            transition = {{ duration: 2}}
-          />
+          
         </div>
     </div>
   )
