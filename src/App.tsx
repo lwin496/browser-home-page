@@ -19,14 +19,7 @@ function App() {
         <IconBox />
       </div>
       <div className='absolute top-1'> 
-        <motion.div 
-          animate={{
-            y: 100,
-          }}
-          transition = {{ease: "", duration: 3, repeat: Infinity}}
-        >
         <Spotify link='https://open.spotify.com/album/3kBwbHeZRaGymxZmbG8zMQ?si=aEvegGLAQJCwpOWk8-0p5A' />
-        </motion.div>
       </div>
 
         <div className='text-white'>
